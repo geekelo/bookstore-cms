@@ -1,23 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  value: [
-    {
-      id: '1',
-      category: 'Author 1',
-      title: 'The Hunger Games book 1',
-    },
-    {
-      id: '2',
-      category: 'Author 2',
-      title: 'The Hunger Games book 2',
-    },
-    {
-      id: '3',
-      category: 'Author 3',
-      title: 'The Hunger Games book 3',
-    },
-  ],
+  value: [],
 };
 
 const bookSlice = createSlice({
