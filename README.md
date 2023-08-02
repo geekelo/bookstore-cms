@@ -125,7 +125,7 @@ Head to the <a href="#live-demo">LIVE DEMO SECTION</a> for Live links and presen
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > View the live demo of this project by clicking the text below.
-- [See Live Demo via Github pages](https://geekelo.github.io/bookstore-cms/)
+<!-- - [See Live Demo via Github pages](https://geekelo.github.io/bookstore-cms/) -->
 - [See Live Demo via Render](https://bookstore-cms-hyxq.onrender.com)
 <!-- - [First Presenation Video](https://www.loom.com/share/719c333faa524c5db6930878f33b809b) -->
 
