@@ -1,10 +1,11 @@
 import { useDispatch } from 'react-redux';
+import { v4 as uuidv4 } from 'uuid';
 import { updatebookList } from './redux/books/books';
 
 function AddBook() {
   const dispatch = useDispatch();
   const newBook = {
-    id: '8',
+    id: uuidv4(),
     category: '',
     title: '',
   };
