@@ -22,8 +22,8 @@ function AddBook() {
       <input onChange={(e) => { newBook.author = e.target.value; }} type="text" placeholder="Fill book author" />
       <select onChange={(e) => { newBook.category = e.target.value; }}>
         <option>Category</option>
-        <option value="Category A">Category A</option>
-        <option value="Category B">Category B</option>
+        <option value="Fiction">Fiction</option>
+        <option value="Non-Fiction">Non-Fiction</option>
       </select>
       <input type="submit" value="ADD BOOK" />
     </form>
