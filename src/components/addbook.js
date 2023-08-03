@@ -5,9 +5,10 @@ import { updatebookList } from './redux/books/books';
 function AddBook() {
   const dispatch = useDispatch();
   const newBook = {
-    id: uuidv4(),
-    category: '',
+    item_id: `item ${uuidv4()}`,
     title: '',
+    author: '',
+    category: '',
   };
 
   const getvalues = (e) => {
@@ -18,10 +19,11 @@ function AddBook() {
   return (
     <form onSubmit={(e) => getvalues(e)}>
       <input onChange={(e) => { newBook.title = e.target.value; }} type="text" placeholder="Fill book title" />
+      <input onChange={(e) => { newBook.author = e.target.value; }} type="text" placeholder="Fill book author" />
       <select onChange={(e) => { newBook.category = e.target.value; }}>
         <option>Category</option>
-        <option value="Category A">Category A</option>
-        <option value="Category B">Category B</option>
+        <option value="Fiction">Fiction</option>
+        <option value="Non-Fiction">Non-Fiction</option>
       </select>
       <input type="submit" value="ADD BOOK" />
     </form>
