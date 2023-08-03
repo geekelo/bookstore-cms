@@ -9,7 +9,13 @@ function BookList() {
     <div>
       <ul>
         {books.map((book) => (
-          <BookItem key={book.id} id={book.id} title={book.title} category={book.category} />
+          <BookItem
+            key={book.item_id}
+            id={book.item_id}
+            title={book.title}
+            category={book.category}
+            author={book.author}
+          />
         ))}
       </ul>
       <AddBook />
