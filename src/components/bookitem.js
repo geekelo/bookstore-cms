@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { deletebook } from './redux/books/books';
+import { deleteBook } from './redux/books/books';
 
 function BookItem({
   id,
@@ -9,7 +9,10 @@ function BookItem({
   author,
 }) {
   const dispatch = useDispatch();
-
+  if (!category) {
+    // Handle the case when category is not provided
+    return null;
+  }
   return (
     <li>
       <p>{category}</p>
@@ -18,7 +21,7 @@ function BookItem({
       <button
         onClick={(e) => {
           e.preventDefault();
-          dispatch(deletebook(id));
+          dispatch(deleteBook(id));
         }}
         type="submit"
       >

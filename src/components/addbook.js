@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import { updatebookList } from './redux/books/books';
+import { postBook } from './redux/books/books';
 
 function AddBook() {
   const dispatch = useDispatch();
@@ -13,7 +13,7 @@ function AddBook() {
 
   const getvalues = (e) => {
     e.preventDefault();
-    dispatch(updatebookList(newBook));
+    dispatch(postBook(newBook));
   };
 
   return (
