@@ -1,0 +1,7 @@
+.itemContainerl {
+  display: flex;
+  width: 90%;
+  margin: 0.5rem auto;
+  background-color: #fff;
+  border: 2px solid #f1f1f1;
+}

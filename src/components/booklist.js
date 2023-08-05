@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { fetchBooks } from './redux/books/books';
 import BookItem from './bookitem';
 import AddBook from './addbook';
+import './styles/booklist.css';
 
 function BookList() {
   const booksObj = useSelector((state) => state.book.value);
@@ -19,7 +20,7 @@ function BookList() {
 
   return (
     <div>
-      <ul>
+      <ul className="booksSection">
         {Object.entries(booksObj).map(([id, bookArr]) => (
           <BookItem
             key={id}

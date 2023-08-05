@@ -1,67 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap');
+
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f6fa;
+  font-family: 'Montserrat', sans-serif;
 }
 
 li {
-  display: inline;
   list-style: none;
-}
-
-.navContainer {
-  width: 87.5rem;
-  height: 5.938rem;
-  margin: 0 0 2.375rem;
-  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
-  background-color: var(--white-two);
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.Bookstore-CMS {
-  width: 15rem;
-  height: 2.313rem;
-  margin: 0.375rem 2.938rem 0.125rem 0;
-  font-size: 1.875rem;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #0290ff;
-}
-
-.panel-bg {
-  width: 87.5rem;
-  height: 5.938rem;
-  margin: 0 0 2.375rem;
-  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
-  background-color: var(--white-two);
-  text-decoration: none;
-  color: grey;
-}
-
-.Lesson-Panel {
-  width: 75rem;
-  height: 10.625rem;
-  margin: 2.313rem 6.25rem 0;
-  padding: 2rem 9.188rem 1.625rem 1.688rem;
-  border-radius: 4px;
-  border: solid 1px #e8e8e8;
-  background-color: #fff;
-}
-
-.School-of {
-  width: 7rem;
-  height: 1.125rem;
-  margin: 0 4rem 0 0;
-  opacity: 0.5;
-  font-size: 0.875rem;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #121212;
 }

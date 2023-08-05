@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { deleteBook } from './redux/books/books';
+import './styles/bookitem.css';
 
 function BookItem({
   id,
@@ -14,7 +15,7 @@ function BookItem({
     return null;
   }
   return (
-    <li className="Lesson-Panel">
+    <li className="itemContainerl">
       <div>
         <p className="SchhSchool-of Text-Style-9">{category}</p>
         <h2>{title}</h2>

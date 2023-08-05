@@ -1,0 +1,36 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  border: 2px solid #f1f1f1;
+  background-color: #fff;
+}
+
+.logo {
+  color: #0390fb;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.menu-and-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  align-items: center;
+}
+
+.menuItems {
+  display: flex;
+  gap: 29px;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.panel-bg {
+  text-decoration: none;
+  color: #969696;
+}
+
+.panel-bg.active {
+  color: #000;
+}
