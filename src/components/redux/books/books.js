@@ -70,11 +70,17 @@ const bookReducer = createSlice({
         status: 'Saving',
         error: null,
       }))
-      .addCase(postBook.fulfilled, (state, action) => ({
-        ...state,
-        status: 'Successfully Saved',
-        value: [...state.value, action.payload],
-      }))
+      .addCase(postBook.fulfilled, (state, action) => {
+        const newItemId = Object.keys(action.payload)[0];
+        return {
+          ...state,
+          status: 'Successfully Saved',
+          value: {
+            ...state.value,
+            [newItemId]: action.payload[newItemId],
+          },
+        };
+      })
       .addCase(postBook.rejected, (state) => ({
         ...state,
         status: 'Saving Failed',

@@ -14,19 +14,21 @@ function BookItem({
     return null;
   }
   return (
-    <li>
-      <p>{category}</p>
-      <h2>{title}</h2>
-      <p>{author}</p>
-      <button
-        onClick={(e) => {
-          e.preventDefault();
-          dispatch(deleteBook(id));
-        }}
-        type="submit"
-      >
-        Delete
-      </button>
+    <li className="Lesson-Panel">
+      <div>
+        <p className="SchhSchool-of Text-Style-9">{category}</p>
+        <h2>{title}</h2>
+        <p>{author}</p>
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+            dispatch(deleteBook(id));
+          }}
+          type="submit"
+        >
+          Delete
+        </button>
+      </div>
     </li>
   );
 }

@@ -12,6 +12,11 @@ function BookList() {
     dispatch(fetchBooks());
   }, [dispatch]);
 
+  // Fetch data whenever the booksObj changes (after post or delete)
+  useEffect(() => {
+    dispatch(fetchBooks());
+  }, [dispatch]);
+
   return (
     <div>
       <ul>
