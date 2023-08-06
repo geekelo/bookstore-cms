@@ -9,7 +9,7 @@
 }
 
 .addnewbookTitle {
-  font-family: Montserrat;
+  font-family: 'Montserrat', serif;
   font-size: 1.25rem;
   font-weight: bold;
   font-stretch: normal;
@@ -36,7 +36,6 @@ input[type="text"] {
 }
 
 select {
-  border: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
