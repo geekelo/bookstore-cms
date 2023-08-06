@@ -34,3 +34,10 @@
 .panel-bg.active {
   color: #000;
 }
+
+.account {
+  color: #0390fb;
+  border: 1px solid #969696;
+  border-radius: 50%;
+  padding: 1rem;
+}

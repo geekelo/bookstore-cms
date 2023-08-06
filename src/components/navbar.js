@@ -13,7 +13,7 @@ function Navbar() {
           <li><NavLink className="panel-bg" to="/categories">CATEGORIES</NavLink></li>
         </ul>
       </div>
-      <p>Account</p>
+      <p className="account"> 👤️ </p>
     </nav>
   );
 }
