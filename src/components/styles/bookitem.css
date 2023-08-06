@@ -67,10 +67,8 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: white;
-  background:
-    radial-gradient(circle closest-side, white 79%, transparent 80% 100%),
-    conic-gradient(#0390fb 75%, #f5f6fa 0); /* Emoji "✖" represents something else */
+  background: radial-gradient(circle closest-side, white 79%, transparent 80% 100%),
+              conic-gradient(#0390fb 75%, #f5f6fa 0);
 }
 
 .percentage {
