@@ -1,7 +1,76 @@
-.itemContainerl {
+.itemContainer {
   display: flex;
   width: 90%;
   margin: 0.5rem auto;
   background-color: #fff;
   border: 2px solid #f1f1f1;
+  align-items: center;
+}
+
+.bookDetails {
+  margin: 1rem;
+  display: flex;
+  gap: 250px;
+  padding-right: 50px;
+}
+
+.category {
+  font-size: 0.9rem;
+  color: #969696;
+  font-weight: 600;
+}
+
+.title {
+  color: #121212;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+}
+
+.author,
+.actionBtns {
+  color: #0390fb;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.actionBtns {
+  border: none;
+  background-color: transparent;
+  border-right: 1px solid #f3f3f3;
+  padding: 0.2rem 0;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  font-family: 'Roboto Slab', serif;
+}
+
+.edit {
+  border: none;
+}
+
+.actionBtnSect {
+  padding-top: 0.5rem;
+}
+
+.progressContainer {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.progress-bar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(#0390fb 75%, #f5f6fa 0);    
+}
+
+.percentage {
+  font-size: 2rem;
+}
+
+.vbar {
+  border-right: 2px solid #f3f3f3;
+  height: 70px;
 }

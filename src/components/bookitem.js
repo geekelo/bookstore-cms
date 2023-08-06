@@ -15,20 +15,35 @@ function BookItem({
     return null;
   }
   return (
-    <li className="itemContainerl">
-      <div>
-        <p className="SchhSchool-of Text-Style-9">{category}</p>
-        <h2>{title}</h2>
-        <p>{author}</p>
-        <button
-          onClick={(e) => {
-            e.preventDefault();
-            dispatch(deleteBook(id));
-          }}
-          type="submit"
-        >
-          Delete
-        </button>
+    <li className="itemContainer">
+      <div className="bookDetails">
+        <div className="detailsection">
+          <p className="category">{category}</p>
+          <h2 className="title">{title}</h2>
+          <p className="author">{author}</p>
+          <div className="actionBtnSect">
+            <button type="submit" className="actionBtns">comments</button>
+            <button
+              className="actionBtns"
+              onClick={(e) => {
+                e.preventDefault();
+                dispatch(deleteBook(id));
+              }}
+              type="submit"
+            >
+              Remove
+            </button>
+            <button type="submit" className="actionBtns edit">Edit</button>
+          </div>
+        </div>
+        <div className="progressContainer">
+          <div className="progress-bar"> </div>
+          <div>
+            <p className="percentage">75%</p>
+            <p>Completed</p>
+          </div>
+          <p className="vbar"> </p>
+        </div>
       </div>
     </li>
   );
