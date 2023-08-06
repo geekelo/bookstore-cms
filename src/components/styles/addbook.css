@@ -21,18 +21,42 @@
 
 form {
   display: flex;
-  gap: 20px;
+  gap: 40px;
+}
+
+input[type="text"] {
+  padding: 1rem 2rem;
+  padding-right: 11rem;
 }
 
 .formFields {
   border: 1px solid #888;
   background-color: #fff;
-  padding: 1rem 2rem;
   font-size: 1rem;
 }
 
-.formFields:focus {
-  border-color: red;
+select {
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+  padding-right: 4rem;
+  height: 3.5rem;
+  border: 1px solid #888;
+}
+
+.arrow {
+  margin-left: -40px;
+  color: #e4e4e4;
+  height: 50%;
+}
+
+.formFields:focus,
+select:focus {
+  border-color: #0390fb;
+  outline: #0390fb;
 }
 
 .addbookBtn {

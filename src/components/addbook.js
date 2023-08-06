@@ -23,11 +23,14 @@ function AddBook() {
       <form onSubmit={(e) => getvalues(e)}>
         <input className="formFields" onChange={(e) => { newBook.title = e.target.value; }} type="text" placeholder="Fill book title" />
         <input className="formFields" onChange={(e) => { newBook.author = e.target.value; }} type="text" placeholder="Fill book author" />
-        <select className="formFields" onChange={(e) => { newBook.category = e.target.value; }}>
-          <option>Category</option>
-          <option value="Fiction">Fiction</option>
-          <option value="Non-Fiction">Non-Fiction</option>
-        </select>
+        <div>
+          <select id="category" onChange={(e) => { newBook.category = e.target.value; }}>
+            <option>Category</option>
+            <option value="Fiction">Fiction</option>
+            <option value="Non-Fiction">Non-Fiction</option>
+          </select>
+          <span className="arrow">  ▼ </span>
+        </div>
         <input className="addbookBtn" type="submit" value="ADD BOOK" />
       </form>
     </div>
