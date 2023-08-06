@@ -68,10 +68,10 @@
   height: 80px;
   border-radius: 50%;
   background:
-  radial-gradient(circle closest-side, white 79%, transparent 80% 100%),
-  linear-gradient(139deg, transparent 29%, #0390fb 0%),
-  radial-gradient(circle closest-side, #0390fb 70%, #f5f6fa 0%),
-  transparent;
+    radial-gradient(circle closest-side, white 79%, transparent 80% 100%),
+    linear-gradient(139deg, transparent 29%, #0390fb 0%),
+    radial-gradient(circle closest-side, #0390fb 70%, #f5f6fa 0%),
+    transparent;
 }
 
 .percentage {
