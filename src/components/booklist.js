@@ -19,8 +19,8 @@ function BookList() {
   }, [dispatch]);
 
   return (
-    <div>
-      <ul className="booksSection">
+    <div className="booksSection">
+      <ul>
         {Object.entries(booksObj).map(([id, bookArr]) => (
           <BookItem
             key={id}

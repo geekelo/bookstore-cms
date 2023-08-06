@@ -1,0 +1,43 @@
+.addnewbookContainer {
+  width: 90%;
+  margin: auto;
+  border-top: 2px solid #e4e4e4;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.addnewbookTitle {
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
+form {
+  display: flex;
+  gap: 20px;
+}
+
+.formFields {
+  border: 1px solid #888;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+
+.formFields:focus {
+  border-color: red;
+}
+
+.addbookBtn {
+  background-color: #0390fb;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 2rem;
+}

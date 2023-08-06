@@ -10,8 +10,8 @@
 .bookDetails {
   margin: 1rem;
   display: flex;
-  gap: 250px;
-  padding-right: 50px;
+  gap: 300px;
+  padding-left: 20px;
 }
 
 .category {
@@ -51,6 +51,12 @@
   padding-top: 0.5rem;
 }
 
+.progressSection {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
 .progressContainer {
   display: flex;
   align-items: center;
@@ -70,7 +76,42 @@
   font-size: 2rem;
 }
 
+.completed {
+  color: #969696;
+}
+
 .vbar {
   border-right: 2px solid #f3f3f3;
   height: 70px;
+}
+
+.progressSubSect {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.chapterSection {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #969696;
+}
+
+.chapterTitle {
+  font-size: 0.9rem;
+}
+
+.chapter {
+  color: #121212;
+  font-size: 1.2rem;
+}
+
+.updateProgressBtn {
+  background-color: #0390fb;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 2rem;
 }

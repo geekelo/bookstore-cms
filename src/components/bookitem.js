@@ -36,13 +36,22 @@ function BookItem({
             <button type="submit" className="actionBtns edit">Edit</button>
           </div>
         </div>
-        <div className="progressContainer">
-          <div className="progress-bar"> </div>
-          <div>
-            <p className="percentage">75%</p>
-            <p>Completed</p>
+        <div className="progressSection">
+          <div className="progressContainer">
+            <div className="progress-bar"> </div>
+            <div>
+              <p className="percentage">75%</p>
+              <p className="completed">Completed</p>
+            </div>
           </div>
           <p className="vbar"> </p>
+          <div className="progressSubSect">
+            <div className="chapterSection">
+              <p className="chapterTitle">CURRENT CHAPTER</p>
+              <p className="chapter">Chapter 21</p>
+            </div>
+            <button className="updateProgressBtn" type="submit">UPDATE PROGRESS</button>
+          </div>
         </div>
       </div>
     </li>
