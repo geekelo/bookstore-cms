@@ -68,7 +68,7 @@
   height: 80px;
   border-radius: 50%;
   background:
-      radial-gradient(circle closest-side, white 79%, transparent 80% 10%),
+    radial-gradient(circle closest-side, white 79%, transparent 80% 100%),
     #0390fb;
 }
 
