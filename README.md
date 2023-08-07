@@ -60,6 +60,7 @@ After you're finished please remove all the comments and instructions.
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
+<img src="https://geekelo.us.to/wp-content/uploads/2023/08/Screenshot-2023-08-07-112524.png">
 
 # 📖The Bookstore CMS<a name="about-project"></a>
 
