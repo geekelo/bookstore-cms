@@ -1,0 +1,119 @@
+.itemContainer {
+  display: flex;
+  width: 90%;
+  margin: 0.5rem auto;
+  background-color: #fff;
+  border: 2px solid #f1f1f1;
+  align-items: center;
+}
+
+.bookDetails {
+  margin: 1rem;
+  display: flex;
+  gap: 300px;
+  padding-left: 20px;
+}
+
+.category {
+  font-size: 0.9rem;
+  color: #969696;
+  font-weight: 600;
+}
+
+.title {
+  color: #121212;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+}
+
+.author,
+.actionBtns {
+  color: #0390fb;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.actionBtns {
+  border: none;
+  background-color: transparent;
+  border-right: 1px solid #f3f3f3;
+  padding: 0.2rem 0;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  font-family: 'Roboto Slab', serif;
+}
+
+.edit {
+  border: none;
+}
+
+.actionBtnSect {
+  padding-top: 0.5rem;
+}
+
+.progressSection {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.progressContainer {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.progress-bar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle closest-side, white 79%, transparent 80% 100%),
+    linear-gradient(139deg, transparent 29%, #0390fb 0%),
+    radial-gradient(circle closest-side, #0390fb 70%, #f5f6fa 0%),
+    transparent;
+}
+
+.percentage {
+  font-size: 2rem;
+}
+
+.completed {
+  color: #969696;
+}
+
+.vbar {
+  border-right: 2px solid #f3f3f3;
+  height: 70px;
+}
+
+.progressSubSect {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.chapterSection {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #969696;
+}
+
+.chapterTitle {
+  font-size: 0.9rem;
+}
+
+.chapter {
+  color: #121212;
+  font-size: 1.2rem;
+}
+
+.updateProgressBtn {
+  background-color: #0390fb;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 2rem;
+}

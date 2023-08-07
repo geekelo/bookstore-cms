@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&family=Roboto+Slab:wght@200;300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: beige;
+  background-color: #f5f6fa;
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  list-style: none;
 }

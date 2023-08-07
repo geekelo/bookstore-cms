@@ -1,16 +1,19 @@
 import { NavLink } from 'react-router-dom';
+import './styles/navbar.css';
 
 function Navbar() {
   return (
-    <nav>
-      <div>
-        <p>BOOKSTORE CMS</p>
-        <ul>
-          <li><NavLink to="/">BOOKS</NavLink></li>
-          <li><NavLink to="/categories">CATEGORIES</NavLink></li>
+    <nav className="navContainer">
+      <div className="menu-and-logo">
+        <p className="logo">
+          Bookstore CMS
+        </p>
+        <ul className="menuItems">
+          <li><NavLink className="panel-bg" to="/">BOOKS</NavLink></li>
+          <li><NavLink className="panel-bg" to="/categories">CATEGORIES</NavLink></li>
         </ul>
       </div>
-      <p>Account</p>
+      <p className="account"> 👤️ </p>
     </nav>
   );
 }
